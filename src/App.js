@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Landing from './components/landing';
+import Landing from './components/structure/Landing';
 
 class App extends Component {
   render() {
