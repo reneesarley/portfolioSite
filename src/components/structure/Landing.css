@@ -15,19 +15,23 @@
 }
 .logo h1{
   font-size: 6.5em;
-  letter-spacing: .14em;
+  letter-spacing: .23em;
   line-height: .85em;
   margin-bottom: .15em;
   margin-top: 0;
+  font-weight: normal;
 }
+
 #lastname{
   letter-spacing: normal;
+  letter-spacing: .08em;
 }
 
 .logo h2, #landingNav{
   margin-top: 0;
   color: rgb(127, 153, 127, .75);
-  letter-spacing: .19em;
+  letter-spacing: .25em;
+  font-weight: lighter;
 }
 
 li{
