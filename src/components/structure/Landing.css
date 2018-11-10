@@ -24,8 +24,22 @@
   letter-spacing: normal;
 }
 
-.logo h2{
+.logo h2, #landingNav{
   margin-top: 0;
   color: rgb(127, 153, 127, .75);
   letter-spacing: .19em;
+}
+
+li{
+  display: inline;
+}
+
+#centerButton{
+  padding: 10px;
+}
+
+#landingNav li:hover{
+  color: rgb(255, 255, 255, .55);
+  font-weight: bold;
+  display: inline;
 }

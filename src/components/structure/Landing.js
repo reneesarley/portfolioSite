@@ -10,8 +10,13 @@ const Landing = () =>{
         <source type="video/mp4" src="img/tree.mp4"/>
       </video>
       <div className='logo'>
-        <h1>Renee<br/><span id='lastname'>Sarley</span></h1>
+        <h1> Renee<br/><span id='lastname'>Sarley</span></h1>
         <h2>Full Stack Developer</h2>
+        <ul id='landingNav'>
+          <li>work</li>
+          <li id='centerButton'>about</li>
+          <li>contact</li>
+        </ul>
       </div>
     </div>
   )
