@@ -4,9 +4,17 @@
 }
 
 .section h3{
+  font-size: 2.25rem;
   font-weight: lighter;
   text-transform: uppercase;
   font-style: italic;
   letter-spacing: .25em;
   text-align: left;
+}
+
+.section h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
 }

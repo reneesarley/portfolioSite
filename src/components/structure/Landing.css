@@ -36,17 +36,20 @@ ul{
   letter-spacing: .08em;
 }
 
-.logo h2, #landingNav{
-  margin-top: 0;
+.logo h2{
   color: rgb(255, 255, 255, .55);
   letter-spacing: .3em;
   font-weight: lighter;
-
+  font-size: 1.55em;
+  line-height: normal;
+  margin: 0 0 .5em 0;
 }
+
 
 li{
   display: inline;
   font-style: italic;
+  letter-spacing: .2em;
 }
 
 #centerButton{
