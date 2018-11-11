@@ -1,13 +1,8 @@
 .projects{
-  color: #2E5339;
+  color: #192D1F;
   font-weight: lighter;
-  padding-left: 2em;
 }
 
 h3{
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-style: italic;
-  letter-spacing: .25em;
-  text-align: left;
+  color: #192D1F;
 }

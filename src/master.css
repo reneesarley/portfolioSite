@@ -1,0 +1,12 @@
+.section{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section h3{
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .25em;
+  text-align: left;
+}

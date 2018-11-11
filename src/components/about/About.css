@@ -1,22 +1,22 @@
 .about{
-  padding-left: 2em;
   background-color: white;
   margin-top: 3em;
   overflow: hidden;
 }
 
 #aboutMe{
-  float: left;
-  text-align: left;
-  padding: 0;
   color: #192D1F;
+  float: left;
   font-weight: lighter;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: left;
   width: 49%;
 }
 
-p{
-  margin-block-start: 0;
-  margin-block-end: 0;
+#aboutMe{
+
 }
 
 #techStack{

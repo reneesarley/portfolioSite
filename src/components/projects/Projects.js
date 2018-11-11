@@ -1,10 +1,11 @@
 import React from 'react';
 import './Projects.css';
-import ProjectCard from './ProjectCard'
+import '../../master.css';
+import ProjectCard from './ProjectCard';
 
 const Projects = () =>{
   return(
-    <div className='projects'>
+    <div className='projects section'>
       <h3>Projects</h3>
       <ProjectCard/>
       <ProjectCard/>
