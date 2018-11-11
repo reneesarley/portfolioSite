@@ -7,9 +7,14 @@ const Projects = () =>{
   return(
     <div className='projects section'>
       <h3>Projects</h3>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
+      <div className= 'row'>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+      </div>
     </div>
   )
 }

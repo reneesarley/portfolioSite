@@ -3,6 +3,12 @@
   font-weight: lighter;
 }
 
+.projectCard {
+  border: 1px solid white;
+  margin-left: -0.75rem;
+  padding: .5rem;
+}
+
 h3{
   color: #192D1F;
 }
