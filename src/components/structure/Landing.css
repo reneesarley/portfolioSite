@@ -1,5 +1,5 @@
-.landing{
-  background-color: grey;
+#video{
+  width: 100%;
 }
 
 .logo{
@@ -20,6 +20,15 @@
   margin-bottom: .15em;
   margin-top: 0;
   font-weight: normal;
+  font-style: italic;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+#laste{
+  letter-spacing: normal;
 }
 
 #lastname{
@@ -29,21 +38,24 @@
 
 .logo h2, #landingNav{
   margin-top: 0;
-  color: rgb(127, 153, 127, .75);
-  letter-spacing: .25em;
+  color: rgb(255, 255, 255, .55);
+  letter-spacing: .3em;
   font-weight: lighter;
+
 }
 
 li{
   display: inline;
+  font-style: italic;
 }
 
 #centerButton{
-  padding: 10px;
+  padding-right: 2.75em;
+  padding-left: 2.75em;
 }
 
 #landingNav li:hover{
-  color: rgb(255, 255, 255, .55);
-  font-weight: bold;
-  display: inline;
+  color: rgb(255, 255, 255, .9);
+  font-style: normal;
+
 }

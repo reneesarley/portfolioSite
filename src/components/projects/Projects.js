@@ -1,9 +1,12 @@
 import React from 'react';
+import './Projects.css';
+import ProjectCard from './ProjectCard'
 
 const Projects = () =>{
   return(
-    <div>
-      <h3>Projects will go here</h3>
+    <div className='projects'>
+      <h3>Projects</h3>
+      <ProjectCard/>
     </div>
   )
 }

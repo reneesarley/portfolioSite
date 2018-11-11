@@ -1,0 +1,14 @@
+.projects{
+  /* background-color: rgb(101, 98, 86); */
+  color: #2E5339;
+  font-weight: lighter;
+  padding-left: 2em;
+}
+
+h3{
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .25em;
+  text-align: left;
+}
