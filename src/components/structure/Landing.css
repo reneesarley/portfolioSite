@@ -60,5 +60,8 @@ li{
 #landingNav li:hover{
   color: rgb(255, 255, 255, .9);
   font-style: normal;
+}
 
+a{
+  color: rgb(255, 255, 255, .55)
 }

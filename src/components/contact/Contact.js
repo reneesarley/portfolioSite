@@ -4,7 +4,7 @@ import '../../master.css';
 
 const Contact = ()=>{
   return(
-    <div className='contac section'>
+    <div className='contac section' id='contactSection'>
       <h3>Contact</h3>
       <div className='row'>
         <div className ='col s4'> Email</div>

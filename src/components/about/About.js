@@ -4,7 +4,7 @@ import '../../master.css';
 
 const About = () =>{
   return(
-    <div className='about section'>
+    <div className='about section' id='aboutSection'>
       <h3>About Me</h3>
       <p id='aboutMe'>I am a developer based in the Pacific Northwest. After 5+ years of working in data management and analysis I decided to expand my programming skills and persue a career that would allow me to combine my love of
       <br/><br/>
