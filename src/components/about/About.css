@@ -4,6 +4,12 @@
   overflow: hidden;
 }
 
+.skill{
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  font-weight: lighter;
+}
+
 #aboutMe{
   color: #192D1F;
   float: left;
@@ -15,13 +21,12 @@
   width: 49%;
 }
 
-#aboutMe{
-
-}
-
 #techStack{
   background-color: #1D3524;
+  color: white;
   float: right;
+  font-weight: lighter;
+  letter-spacing: .1rem;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: .5em;
@@ -40,3 +45,13 @@
   text-transform: uppercase;
   text-align: left;
 }
+ #techStack h5{
+   letter-spacing: .2rem;
+   font-size: 1.1rem;
+   font-style: italic;
+   font-weight: lighter;
+   text-transform: uppercase;
+   text-align: left;
+   margin-top: 2rem;
+   margin:2rem 0 .2rem 0;
+ }
