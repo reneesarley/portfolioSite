@@ -6,25 +6,28 @@ import ProjectCard from './ProjectCard';
 const projectList = [
   {
     name: 'ICE Raid Tracker',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
+    github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: ''
   },
   {
     name: 'Sudoku Game',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
+    github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: ''
   },
   {
-    name: 'Coalition of Adovocates for Equal Access for Girls',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    name: 'NonProfit Redesign',
+    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
+    github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: 'in progress'
   }
@@ -38,8 +41,10 @@ const Projects = () =>{
       <div className= 'row'>
         {projectList.map((project, index) =>
           <ProjectCard name={project.name}
-            description={project.description}
+            techDescription={project.techDescription}
+            projDescription={project.projDescription}
             status={project.status}
+            github={project.github}
             key={index}/>
         )}
       </div>

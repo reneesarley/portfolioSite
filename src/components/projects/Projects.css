@@ -1,37 +1,60 @@
+.projectCard {
+  box-shadow: none;
+}
+
+.links a{
+  float:left;
+  color: #192D1F;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.links a:hover{
+  font-style: italic;
+}
+
+
+h5.projectName, .card-title {
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: .2rem;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-transform: uppercase;
+}
+
+h5.projectName:hover{
+  font-weight: normal;
+}
+
 .projects{
   color: #192D1F;
   font-weight: lighter;
   z-index: -1;
 }
 
-.projectCard {
-  /* border: 1px solid white; */
-  margin-left: -0.75rem;
-  padding: .5rem;
-  text-align: left;
-}
-
 .projectImage{
   background-color: white;
   min-width: 150px;
   min-height: 150px;
-
+  z-index: 1;
   box-shadow: 5px 5px 15px #AEBAB3;
-
 }
 
-.hidden{
-  visibility: hidden;
-}
-.show{
-  visibility: visible;
+.projectDetails{
+  background-color: #D2E0D8;
 }
 
-h3{
-  color: #192D1F;
+.card-action.status {
+  border-top: none;
+  font-weight: lighter;
+  position: relative;
+  padding: 0 24px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-#projectName{
-  padding-left: 8%;
-  padding-right: 8%;
+.card-reveal p{
+  text-align: left;
 }
