@@ -1,6 +1,7 @@
 .projects{
   color: #192D1F;
   font-weight: lighter;
+  z-index: -1;
 }
 
 .projectCard {
