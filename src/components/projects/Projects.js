@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 
 const projectList = [
   {
-    name: 'ICE Tracker',
+    name: 'ICE Raid Tracker',
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',
@@ -13,6 +13,34 @@ const projectList = [
   },
   {
     name: 'Another Project',
+    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techUsed: ['C#', 'APIs'],
+    github: 'www.github.com/reneesarley/ICE-tracker',
+    deployedLink: ''
+  },
+  {
+    name: 'Third Project',
+    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techUsed: ['C#', 'APIs'],
+    github: 'www.github.com/reneesarley/ICE-tracker',
+    deployedLink: ''
+  },
+  {
+    name: 'ICE Raid Tracker',
+    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techUsed: ['C#', 'APIs'],
+    github: 'www.github.com/reneesarley/ICE-tracker',
+    deployedLink: ''
+  },
+  {
+    name: 'Another Project',
+    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    techUsed: ['C#', 'APIs'],
+    github: 'www.github.com/reneesarley/ICE-tracker',
+    deployedLink: ''
+  },
+  {
+    name: 'Third Project',
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',

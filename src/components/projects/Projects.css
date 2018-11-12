@@ -5,11 +5,31 @@
 }
 
 .projectCard {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-left: -0.75rem;
   padding: .5rem;
+  text-align: left;
+}
+
+.projectImage{
+  background-color: white;
+  height: 150px;
+  box-shadow: 5px 5px 15px #AEBAB3;
+
+}
+
+.hidden{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
 }
 
 h3{
   color: #192D1F;
+}
+
+#projectName{
+  padding-left: 8%;
+  padding-right: 8%;
 }

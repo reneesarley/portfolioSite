@@ -40,9 +40,10 @@ class ProjectCard extends Component {
   return(
     <div ref={this.setWrapperRef} className={ this.state.active ? "col m12 projectBlock" : "col m4 projectBlock"}
         onClick={this.handleOnClick}>
-      <div className='projectCard'>
-        <h4>{this.props.name}</h4>
-        <div className='description'>
+      <div className='row projectCard'>
+        <div className='col m5 projectImage'>image here</div>
+        <h4 className='col m7' id='projectName'>{this.props.name}</h4>
+        <div className={ this.state.active ? 'description show' : 'hidden'}>
         {this.props.description}
         </div>
         <div className='techUsed'>
