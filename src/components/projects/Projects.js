@@ -9,42 +9,24 @@ const projectList = [
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
+    deployedLink: '',
+    status: ''
   },
   {
-    name: 'Another Project',
+    name: 'Sudoku Game',
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
+    deployedLink: '',
+    status: ''
   },
   {
-    name: 'Third Project',
+    name: 'Coalition of Adovocates for Equal Access for Girls',
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
-  },
-  {
-    name: 'ICE Raid Tracker',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
-  },
-  {
-    name: 'Another Project',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
-  },
-  {
-    name: 'Third Project',
-    description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    techUsed: ['C#', 'APIs'],
-    github: 'www.github.com/reneesarley/ICE-tracker',
-    deployedLink: ''
+    deployedLink: '',
+    status: 'in progress'
   }
 
 ];
@@ -57,6 +39,7 @@ const Projects = () =>{
         {projectList.map((project, index) =>
           <ProjectCard name={project.name}
             description={project.description}
+            status={project.status}
             key={index}/>
         )}
       </div>

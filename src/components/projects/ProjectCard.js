@@ -38,15 +38,17 @@ class ProjectCard extends Component {
 
  render(){
   return(
-    <div ref={this.setWrapperRef} className={ this.state.active ? "col m12 projectBlock" : "col m4 projectBlock"}
+    <div ref={this.setWrapperRef} className={ this.state.active ? "col m12 projectBlock" : "col l4 m6 projectBlock"}
         onClick={this.handleOnClick}>
       <div className='row projectCard'>
-        <div className='col m5 projectImage'>image here</div>
-        <h4 className='col m7' id='projectName'>{this.props.name}</h4>
-        <div className={ this.state.active ? 'description show' : 'hidden'}>
-        {this.props.description}
-        </div>
-        <div className='techUsed'>
+      <img src='./img/testImage.png'alt="testImage" className="col l5 projectImage img-responsive"/>
+        <div className='col l6 projectDetails'>
+          <h4 id='projectName'>{this.props.name}</h4>
+          <div className={ this.state.active ? 'description show' : 'hidden'}>
+          {this.props.description}
+          </div>
+          <div className='techUsed'></div>
+          <div className ='status '>{this.props.status}</div>
         </div>
       </div>
     </div>
@@ -56,7 +58,8 @@ class ProjectCard extends Component {
 
 ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  status: PropTypes.string
 };
 
 export default ProjectCard;
