@@ -15,7 +15,7 @@ const Contact = ()=>{
           LinkedIn <a href='https://www.linkedin.com/in/reneesarley/' target='_blank'><span className='contactType'>reneesarley</span></a>
         </div>
         <div className ='col s8 row nonProfitSection'>
-          <div className= 'col s9 flow-text'>Know of a <span className='nonProfit'>nonprofit</span> that would benefit from <span className='nonProfit'>pro bono</span> web design, software development or data managment?<br/>Let me know! I am always looking for small side projects that will help me develop my skills and benefit my community.</div><div className='col s3 buttonContainer'><button className='waves-light btn-small' id='messageBtn'>Message Me</button></div>
+          <div className= 'col s12 flow-text'>Know of a nonprofit that would benefit from pro bono web design, software development or data managment?<br/><span id='letMeKnow'><a href='mailto:reneesarley@gmail.com'>Let me know!</a></span><br/>I am always looking for small side projects that will help me develop my skills and benefit my community.</div>
         </div>
       </div>
     </div>
