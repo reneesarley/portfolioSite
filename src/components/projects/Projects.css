@@ -31,7 +31,7 @@ h5.projectName:hover{
 .projects{
   color: #192D1F;
   font-weight: lighter;
-  z-index: -1;
+  position: relative;
 }
 
 .projectImage{
@@ -57,4 +57,19 @@ h5.projectName:hover{
 
 .card-reveal p{
   text-align: left;
+}
+
+#projectsSection:before {
+  background: inherit;
+  background-color: #D2E0D8;
+  top: -2%;
+  content: '';
+  display: block;
+  height: 8%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  transform: skewY(1.25deg);
+  transform-origin: 100%;
+  z-index: 2;
 }
