@@ -4,11 +4,14 @@
   overflow: hidden;
 }
 
-.skill{
+#languages .skill,
+#frameworks .skill,
+#principles .skill,
+#applications .skill{
   font-size: .8rem;
   letter-spacing: .1rem;
   font-weight: lighter;
-  padding-left: 0;
+  padding: 0;
 }
 
 #aboutMe{

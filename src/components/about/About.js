@@ -14,78 +14,40 @@ const About = () =>{
       <div id='techStack'>
         <h4>Technical Skills</h4>
         <h5>Languages</h5>
-        <div className="row skillsRow">
-          <div className="col s4 skill">JavaScript </div>
-          <div className="col s4 skill">
-            C#
-          </div>
-          <div className="col s4 skill">
-            SQL
-          </div>
-          <div className="col s4 skill">
-            TypeScript
-          </div>
-          <div className="col s4 skill">
-            HTML
-          </div>
-          <div className="col s4 skill">
-            CSS
-          </div>
+        <div className="row skillsRow" id='languages'>
+          <div className="skill col s4">JavaScript</div>
+          <div className="col s4 skill">C#</div>
+          <div className="col s4 skill">SQL</div>
+          <div className="col s4 skill">TypeScript</div>
+          <div className="col s4 skill">HTML</div>
+          <div className="col s4 skill">CSS</div>
         </div>
         <h5>Frameworks & Libraries</h5>
-        <div className="row skillsRow">
-          <div className="col s4 skill">
-            Angular
-          </div>
-          <div className="col s4 skill">
-            React
-          </div>
-          <div className="col s4 skill">
-            Redux
-          </div>
-          <div className="col s4 skill">
-            jQuery
-          </div>
-          <div className="col s4 skill">
-            Bootstrap
-          </div>
-          <div className="col s4 skill">
-            Materialize
-          </div>
+        <div className="row skillsRow" id='frameworks'>
+          <div className="col s4 skill">Angular</div>
+          <div className="col s4 skill">React</div>
+          <div className="col s4 skill">Redux</div>
+          <div className="col s4 skill">jQuery</div>
+          <div className="col s4 skill">Bootstrap</div>
+          <div className="col s4 skill">Materialize</div>
         </div>
         <h5>Principles & Systems</h5>
-        <div className="row skillsRow">
-          <div className="col s6 skill">
-            TDD/BDD
-          </div>
-          <div className="col s6 skill">
-            Unit Testing
-          </div>
-          <div className="col s6 skill">
-            Linting
-          </div>
-          <div className="col s6 skill">
-            Restful Routing
-          </div>
+        <div className="row skillsRow" id='principles'>
+          <div className="col s6 skill">TDD/BDD</div>
+          <div className="col s6 skill">Unit Testing</div>
+          <div className="col s6 skill">Linting</div>
+          <div className="col s6 skill">Restful Routing</div>
           <div className="col s6 skill">
             Data Normalization
           </div>
         </div>
           <h5>Applications & Tools</h5>
-        <div className="row skillsRow">
+        <div className="row skillsRow" id='applications'>
           <div className="col s4 skill">Git </div>
-          <div className="col s4 skill">
-            Webpack
-          </div>
-          <div className="col s4 skill">
-            SQL Server
-          </div>
-          <div className="col s4 skill">
-            myPhpAdmin
-          </div>
-          <div className="col s6 skill">
-            Firebase
-          </div>
+          <div className="col s4 skill">Webpack</div>
+          <div className="col s4 skill">SQL Server</div>
+          <div className="col s4 skill">myPhpAdmin</div>
+          <div className="col s6 skill">Firebase</div>
         </div>
       </div>
     </div>
