@@ -7,8 +7,10 @@ const ProjectCard = (props) => {
     <div className='col m4 projectBlock'>
       <div className='projectCard'>
         <h4>{props.name}</h4>
-        <div>
+        <div className='description'>
         {props.description}
+        </div>
+        <div className='techUsed'>
         </div>
       </div>
     </div>

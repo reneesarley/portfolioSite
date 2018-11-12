@@ -34,16 +34,25 @@
 }
 .buttonContainer{
 }
-.messageBtn {
-  background-color: #1D3524;
-  background-image: -webkit-linear-gradient(#1D3524,#284932);
-  font-weight: lighter;
+#messageBtn {
+  background-color: #D2E0D8;
+  /* background-image: -webkit-linear-gradient(#1D3524,#284932); */
+  border: 1.5px solid #1D3524;
+  border-radius: 0;
+  color: #1D3524;
+  filter: drop-shadow(0);
+  font-weight: normal;
   letter-spacing: .15rem;
   position: absolute;
   bottom: 40%;
   right: 5%;
+  -webkit-box-shadow: 0 0 0 0;
+  box-shadow:0 0 0 0;
 }
 
-.messageBtn:hover {
-font-style: italic;
+#messageBtn:hover {
+  font-style: italic;
+  background-color: #D2E0D8;
+  -webkit-box-shadow: 0;
+  box-shadow:0;
 }
