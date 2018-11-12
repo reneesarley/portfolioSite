@@ -8,6 +8,7 @@
   font-size: .8rem;
   letter-spacing: .1rem;
   font-weight: lighter;
+  padding-left: 0;
 }
 
 #aboutMe{
@@ -28,13 +29,11 @@
   float: right;
   font-weight: lighter;
   letter-spacing: .1rem;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding: 3.5%;
   margin-bottom: 2em;
   margin-right: 2em;
   width: 40%;
+  text-align: left;
 }
 
 #techStack h4{
@@ -49,7 +48,7 @@
  #techStack h5{
    letter-spacing: .2rem;
    font-size: 1.1rem;
-   font-style: italic;
+   font-style: normal;
    font-weight: lighter;
    text-transform: uppercase;
    text-align: left;

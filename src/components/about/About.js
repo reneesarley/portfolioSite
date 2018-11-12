@@ -12,7 +12,7 @@ const About = () =>{
       Excited to fully contribute my current abilities to a team while further developing my programing skill set and my understanding of the nuances of software development.<br/>
       </p>
       <div id='techStack'>
-        <h4>Tech stack</h4>
+        <h4>Technical Skills</h4>
         <h5>Languages</h5>
         <div className="row skillsRow">
           <div className="col s4 skill">JavaScript </div>
@@ -67,7 +67,7 @@ const About = () =>{
           <div className="col s6 skill">
             Restful Routing
           </div>
-          <div className="col s12 skill">
+          <div className="col s6 skill">
             Data Normalization
           </div>
         </div>
@@ -80,7 +80,7 @@ const About = () =>{
           <div className="col s4 skill">
             SQL Server
           </div>
-          <div className="col s6 skill">
+          <div className="col s4 skill">
             myPhpAdmin
           </div>
           <div className="col s6 skill">
