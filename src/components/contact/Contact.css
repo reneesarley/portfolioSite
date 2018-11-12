@@ -3,6 +3,7 @@
   font-size: 1.2rem;
   font-weight: lighter;
   letter-spacing: .25rem;
+  line-height: 2.5rem;
   margin-left: 0;
   padding: 0 .1rem;
   text-align: left;
@@ -17,4 +18,32 @@
 
 .contactType:hover{
   font-style: normal;
+}
+
+.nonProfitSection{
+  color:#1D3524;
+  text-align: right;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+}
+
+.nonProfit{
+  font-weight: bold;
+}
+.buttonContainer{
+}
+.messageBtn {
+  background-color: #1D3524;
+  background-image: -webkit-linear-gradient(#1D3524,#284932);
+  font-weight: lighter;
+  letter-spacing: .15rem;
+  position: absolute;
+  bottom: 40%;
+  right: 5%;
+}
+
+.messageBtn:hover {
+font-style: italic;
 }
