@@ -12,7 +12,7 @@ const projectList = [
     deployedLink: ''
   },
   {
-    name: 'ICE Tracker',
+    name: 'Another Project',
     description: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     techUsed: ['C#', 'APIs'],
     github: 'www.github.com/reneesarley/ICE-tracker',

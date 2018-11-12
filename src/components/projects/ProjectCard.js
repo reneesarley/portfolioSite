@@ -6,26 +6,40 @@ class ProjectCard extends Component {
   constructor(props) {
    super(props);
    this.state = {
-      hover: false
+      active: false
     };
-  this.hoverOn = this.hoverOn.bind(this);
-  this.hoverOff = this.hoverOff.bind(this);
+  this.handleOnClick = this.handleOnClick.bind(this);
+  this.setWrapperRef = this.setWrapperRef.bind(this);
+  this.handleClickOutside = this.handleClickOutside.bind(this);
   }
 
- hoverOn(){
-  console.log('hover on');
-  this.setState({ hover: true })
+  componentDidMount() {
+  document.addEventListener('mousedown', this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside);
+  }
+
+ setWrapperRef(node) {
+   this.wrapperRef = node;
  }
 
-  hoverOff(){
-   console.log('hover off');
-   this.setState({ hover: false })
-  }
+ handleClickOutside(event) {
+   if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+     this.setState({ active: false })
+   }
+ }
+
+ handleOnClick(){
+  this.setState({ active: true })
+ }
+
 
  render(){
   return(
-    <div className={ this.state.hover ? "col m12 projectBlock" : "col m4 projectBlock"}
-        onMouseEnter={this.hoverOn} onMouseLeave={this.hoverOff}>
+    <div ref={this.setWrapperRef} className={ this.state.active ? "col m12 projectBlock" : "col m4 projectBlock"}
+        onClick={this.handleOnClick}>
       <div className='projectCard'>
         <h4>{this.props.name}</h4>
         <div className='description'>
