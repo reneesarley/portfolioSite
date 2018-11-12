@@ -8,7 +8,6 @@ const projectList = [
     name: 'ICE Raid Tracker',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
-    techUsed: ['C#', 'APIs'],
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: ''
@@ -17,7 +16,6 @@ const projectList = [
     name: 'Sudoku Game',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
-    techUsed: ['C#', 'APIs'],
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: ''
@@ -26,7 +24,6 @@ const projectList = [
     name: 'NonProfit Redesign',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
-    techUsed: ['C#', 'APIs'],
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: 'in progress'

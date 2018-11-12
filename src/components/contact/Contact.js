@@ -8,7 +8,7 @@ const Contact = ()=>{
       <h3>Contact</h3>
       <div className='row'>
         <div className ='col s4 contactInfo'>
-          Email <span className='contactType'>reneesarley@gmail.com</span>
+          Email <a href='mailto:reneesarley@gmail.com'><span className='contactType'>reneesarley@gmail.com</span></a>
           <br/>
           GitHub <a href='https://github.com/reneesarley' target='_blank'><span className='contactType'>reneesarley</span></a>
           <br/>
