@@ -1,6 +1,6 @@
 .contactInfo{
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   letter-spacing: .25rem;
   line-height: 2.5rem;
@@ -24,7 +24,7 @@
   color:#1D3524;
   text-align: right;
   font-size: 1.2rem;
-  font-style: italic;
+  font-style: normal;
   font-weight: lighter;
   position: relative;
 }
