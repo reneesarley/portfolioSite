@@ -8,16 +8,25 @@
   padding: 0 .1rem;
   text-align: left;
 }
-.contactType{
+.contactType.col.s8{
   font-weight: normal;
   font-style: italic;
   color: #1D3524;
+  padding-top: .85rem;
+  padding-right: 0;
   letter-spacing: normal;
   text-transform:none;
 }
 
 .contactType:hover{
   font-style: normal;
+}
+
+.contact img{
+  max-width: 45px;
+}
+.row.col{
+  padding: 0;
 }
 
 .nonProfitSection{
@@ -30,13 +39,10 @@
 }
 
 .email {
-  font-size: 75px;
-  text-align: center;
+  font-size: 55px;
+  text-align: left;
+  color: black;
 }
-
-/* .contact{
-  background-image: url(img/githubMobile.png);
-} */
 
 #letMeKnow a{
   color:#1D3524;
@@ -49,12 +55,31 @@
   font-weight: bold;
 }
 
+
+@media only screen and (max-width: 950px){
+  .contactType.col.s8{
+    font-weight: normal;
+    font-style: italic;
+    color: #1D3524;
+    padding-top: .5rem;
+
+  }
+  .contactType{
+    font-size: 1rem;
+    text-align: right;
+    padding-top: 1rem;
+  }
+  .contact img{
+    max-width: 44px;
+  }
+  .email{
+    font-size: 55px;
+    text-align: left;
+    color: black;
+  }
+}
 @media only screen and (max-width: 600px){
 
-  .contactType{
-    display: none;
-  }
-  
   .email{
     font-size: 78px;
     text-align: center;

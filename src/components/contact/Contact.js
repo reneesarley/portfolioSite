@@ -13,19 +13,19 @@ const Contact = ()=>{
         <div className ='row col s12 m4 contactInfo'>
           <div className='row col s4 m12'>
             <a href='mailto:reneesarley@gmail.com'>
-              <i class="material-icons email col s4">email</i>
+              <i class="material-icons email col s2">email</i>
               <span className='contactType col s8'>reneesarley@gmail.com</span>
             </a>
           </div>
           <div className='row col s4 m12'>
             <a href='https://github.com/reneesarley' target='_blank'>
-              <div className='col s4'><img src={github}/></div>
+              <div className='col s2'><img src={github}/></div>
               <span className='contactType col s8'>reneesarley</span>
             </a>
           </div>
-          <div className='row col s4 m12'>
+          <div className='row col s2 m12'>
             <a href='https://www.linkedin.com/in/reneesarley/' target='_blank'>
-              <div className= 'col s4'><img src={linkedin}/></div>
+              <div className= 'col s2'><img src={linkedin}/></div>
               <span className='contactType col s8'>reneesarley</span>
             </a>
           </div>
