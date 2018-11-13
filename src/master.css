@@ -19,3 +19,19 @@
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
+
+
+
+@media only screen and (max-width: 600px){
+  .section h3{
+    font-size: 2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: .25em;
+    margin: 3rem 0 2.5rem 0;
+    text-align: left;
+  }
+
+
+}

@@ -29,6 +29,15 @@
   position: relative;
 }
 
+.email {
+  font-size: 75px;
+  text-align: center;
+}
+
+/* .contact{
+  background-image: url(img/githubMobile.png);
+} */
+
 #letMeKnow a{
   color:#1D3524;
   font-weight: bold;
@@ -38,4 +47,17 @@
   color:#1D3524;
   font-style: italic;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+
+  .contactType{
+    display: none;
+  }
+  
+  .email{
+    font-size: 78px;
+    text-align: center;
+    color: black;
+  }
 }
