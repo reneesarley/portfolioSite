@@ -23,6 +23,11 @@
   font-style: italic;
 }
 
+nav{
+  color: rgb(255, 255, 255, .55);
+  background-color: inherit;
+}
+
 ul{
   padding-inline-start: 0;
 }
@@ -32,7 +37,6 @@ ul{
 }
 
 #lastname{
-  letter-spacing: normal;
   letter-spacing: .08em;
 }
 
@@ -63,4 +67,42 @@ li{
 
 a{
   color: rgb(255, 255, 255, .55)
+}
+
+@media only screen and (max-width: 600px) {
+
+  .logo h1{
+    font-size: 4.25em;
+    letter-spacing: .2em;
+    line-height: .85em;
+    margin-bottom: .15em;
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .logo h2{
+    letter-spacing: .3em;
+    font-weight: lighter;
+    font-size: 1em;
+    line-height: normal;
+    margin: 0 0 .5em 0;
+  }
+
+  #laste{
+    letter-spacing: normal;
+  }
+
+  #lastname{
+    letter-spacing: .08em;
+  }
+
+  .logo{
+    top: 5%;
+  }
+
+  li{
+    letter-spacing: 0em;
+    font-size: .9em;
+  }
+
 }

@@ -2,22 +2,10 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import ReactPlayer from 'react-player';
 import { HashLink as Link } from 'react-router-hash-link';
-// import {Link} from 'react-router-dom';
 import './Landing.css';
 import treeVid5Sec from './treeVid5Sec.mp4';
 
 class Landing extends Component {
-
-  // componentDidUpdate() {
-  //   let hash = this.props.location.hash.replace('#', '');
-  //   if (hash) {
-  //       let node = ReactDOM.findDOMNode(this.refs[hash]);
-  //       if (node) {
-  //           node.scrollIntoView();
-  //           console.log('component did update is working')
-  //       }
-  //   }
-  // }
 
   render(){
     return(
