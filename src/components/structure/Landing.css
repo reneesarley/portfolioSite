@@ -88,10 +88,11 @@ a{
   z-index: 2;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 650px) {
 
   .logo h1{
-    font-size: 4.25em;
+    font-size: 3.5em;
     letter-spacing: .2em;
     line-height: .85em;
     margin-bottom: .15em;
@@ -100,11 +101,11 @@ a{
     font-style: italic;
   }
   .logo h2{
-    letter-spacing: .3em;
+    letter-spacing: .1rem;
     font-weight: lighter;
     font-size: 1em;
     line-height: normal;
-    margin: 0 0 .5em 0;
+    margin: 0 0 .25em 0;
   }
 
   #laste{
@@ -116,15 +117,20 @@ a{
   }
 
   .logo{
-    top: 5%;
+    top: 15%;
   }
 
   li{
     letter-spacing: 0em;
-    font-size: .9em;
+    font-size: .7em;
+  }
+
+  #landingNav{
+    margin-top:0;
   }
 
   #landingsection:before {
-    height: 3%;
+    height:10%;
+    top: -3%;
   }
 }
