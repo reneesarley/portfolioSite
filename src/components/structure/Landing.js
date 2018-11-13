@@ -9,7 +9,7 @@ class Landing extends Component {
 
   render(){
     return(
-      <div className='landing'>
+      <div className='landing' id='landingsection'>
         <video id='video' autoplay="" loop={ true } muted={ true }>
           <source type="video/mp4" src="img/tree.mp4"/>
         </video>
