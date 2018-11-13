@@ -3,7 +3,9 @@
   overflow: hidden;
   position: relative;
   padding-top: 5%
-
+}
+p#aboutMe{
+  letter-spacing: .1rem;
 }
 
 .about:before {
@@ -99,6 +101,12 @@
    .about:after {
      bottom: -6%;
      transform: skewY(3.5deg);
+   }
+
+   p#aboutMe.flow-text{
+     letter-spacing: .1rem;
+     font-weight: lighter;
+     font-family: -apple-system,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
    }
 
    #techStack h4{
