@@ -91,3 +91,35 @@
    margin-top: 2rem;
    margin:2rem 0 .2rem 0;
  }
+
+ @media only screen and (max-width: 600px) {
+
+   .about:before {
+     height: 3%;
+     transform: skewY(3.5deg);
+   }
+   .about:after {
+     bottom: -6%;
+     transform: skewY(3.5deg);
+   }
+
+   #techStack h4{
+     font-size: 1rem;
+   }
+
+   #techStack h5{
+     letter-spacing: .2rem;
+     font-size: .9rem;
+     margin:2.5rem 0 .5rem 0;
+   }
+
+   #languages .skill,
+   #frameworks .skill,
+   #principles .skill,
+   #applications .skill{
+     font-size: .9rem;
+     letter-spacing: 0;
+     font-weight: lighter;
+     padding: 0;
+   }
+}
