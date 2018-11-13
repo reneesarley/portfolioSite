@@ -73,3 +73,9 @@ h5.projectName:hover{
   transform-origin: 100%;
   z-index: 2;
 }
+
+@media only screen and (max-width: 600px) {
+  #projectsSection:before {
+    height: 3%;
+  }
+}
