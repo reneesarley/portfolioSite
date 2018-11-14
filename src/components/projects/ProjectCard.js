@@ -9,7 +9,7 @@ class ProjectCard extends Component {
      <div className="col s12 m6 l4">
       <div className="card horizontal activator projectCard">
         <div className="card-image activator projectImage">
-          <img src="./img/testImagecrop.png"/>
+          <img className = 'activator' src='./img/iceRaid.png'/>
         </div>
         <div className="card-stacked projectDetails">
           <div className="card-content activator">
@@ -39,7 +39,8 @@ ProjectCard.propTypes = {
   techDescription: PropTypes.string.isRequired,
   projDescription: PropTypes.string.isRequired,
   github: PropTypes.string,
-  status: PropTypes.string
+  status: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default ProjectCard;

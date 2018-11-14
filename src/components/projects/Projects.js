@@ -10,7 +10,8 @@ const projectList = [
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
-    status: ''
+    status: '',
+    image:'./img/iceRaid.png'
   },
   {
     name: 'Sudoku Game',
@@ -18,7 +19,8 @@ const projectList = [
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
-    status: ''
+    status: '',
+    image: './img/iceRaid.png'
   },
   {
     name: 'NonProfit Redesign',
@@ -26,7 +28,8 @@ const projectList = [
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
-    status: 'in progress'
+    status: 'in progress',
+    image: './img/iceRaid.png'
   }
 
 ];
@@ -42,6 +45,7 @@ const Projects = () =>{
             projDescription={project.projDescription}
             status={project.status}
             github={project.github}
+            image={project.image}
             key={index}/>
         )}
       </div>

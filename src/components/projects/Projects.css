@@ -42,6 +42,17 @@ h5.projectName:hover{
   box-shadow: 5px 5px 15px #AEBAB3;
 }
 
+.card-image {
+    opacity: .75;
+}
+
+.projectCard:hover{
+  background-color: #D2E0D8;
+}
+.card-reveal:hover{
+  font-weight: lighter;
+}
+
 .projectDetails{
   background-color: #D2E0D8;
 }

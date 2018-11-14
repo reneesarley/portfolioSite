@@ -5,13 +5,13 @@ import '../../master.css';
 const About = () =>{
   return(
     <div className='about section' id='aboutSection'>
-      <h3>About Me</h3>
+      <h3>About</h3>
       <div className='row'>
         <div className='col s12 m7'>
-          <p className= 'flow-text'id='aboutMe'>I am a developer based in the Pacific Northwest. After 5+ years of working in data management and analysis I decided to expand my programming skills and persue a career that would allow me to combine my love of
+          <p className= 'flow-text'id='aboutMe'><span id='hello'>Hello. I am a full stack developer based in the beautiful Pacific Northwest.</span><br/> <br/>As a lifelong learner, organization junkie and data nerd development is a natural fit for me. I have 5+ years experience working in database management, and recently expanded my programming skills to include C# and JavaScript frameworks.
           <br/><br/>
           By combining self-study with 500+ hours of pair programming experience, I have learned several additional languages, frameworks and programming principles in just a few months.<br/><br/>
-          Excited to fully contribute my current abilities to a team while further developing my programing skill set and my understanding of the nuances of software development.<br/>
+          When I am not in front of a computer screen I am fostering dogs, binge reading or attempting to learn new and daring things like knitting.
           </p>
         </div>
         <div className='col s12 offset-m1 m4'id='techStack'>
