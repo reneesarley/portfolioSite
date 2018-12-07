@@ -9,7 +9,7 @@ class ProjectCard extends Component {
      <div className="col s12 m6 l4">
       <div className="card horizontal activator projectCard">
         <div className="card-image activator projectImage">
-          <img className = 'activator' src='./img/iceRaid.png'/>
+          <img className = 'activator' src={this.props.image}/>
         </div>
         <div className="card-stacked projectDetails">
           <div className="card-content activator">
@@ -26,7 +26,8 @@ class ProjectCard extends Component {
             <br/><br/>
             {this.props.techDescription}
           </p>
-          <div className='links'><a href={this.props.github} target="_blank">github repo</a></div>
+          <div className='links'><a href={this.props.deployed} target="_blank">deployed link</a></div><br/>
+          <div className='links'><a href={this.props.github} target="_blank">github repo</a></div>  
         </div>
       </div>
     </div>

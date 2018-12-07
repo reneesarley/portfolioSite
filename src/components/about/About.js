@@ -6,6 +6,7 @@ const About = () =>{
   return(
     <div className='about section' id='aboutSection'>
       <h3>About</h3>
+      
       <div className='row'>
         <div className='col s12 m7'>
           <p className= 'flow-text'id='aboutMe'><span id='hello'>Hello. I am a full stack developer based in the beautiful Pacific Northwest.</span><br/> <br/>As a lifelong learner, organization junkie and data nerd development is a natural fit for me. I have 5+ years experience working in database management, and recently expanded my programming skills to include C# and JavaScript frameworks.

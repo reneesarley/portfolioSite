@@ -17,19 +17,19 @@ const projectList = [
     name: 'Sudoku Game',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
-    github: 'https://github.com/reneesarley/ICE-tracker',
-    deployedLink: '',
+    github: 'https://github.com/reneesarley/Sudoku-Game',
+    deployedLink: 'https://sudoku-cd090.firebaseapp.com/',
     status: '',
-    image: './img/iceRaid.png'
+    image: './img/sudoku.png'
   },
   {
-    name: 'NonProfit Redesign',
+    name: 'HOA Portal',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
+    projDescription: 'Website for Home Owners Association members to access information about the HOA and vote on HOA initatives.',
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: 'in progress',
-    image: './img/iceRaid.png'
+    image: './img/sudoku.png'
   }
 
 ];
@@ -45,6 +45,7 @@ const Projects = () =>{
             projDescription={project.projDescription}
             status={project.status}
             github={project.github}
+            deployed={project.deployedLink}
             image={project.image}
             key={index}/>
         )}
