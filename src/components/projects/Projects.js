@@ -5,27 +5,30 @@ import ProjectCard from './ProjectCard';
 
 const projectList = [
   {
-    name: 'ICE Raid Tracker',
-    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
-    github: 'https://github.com/reneesarley/ICE-tracker',
-    deployedLink: '',
-    status: '',
-    image:'./img/iceRaid.png'
-  },
-  {
     name: 'Sudoku Game',
-    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
+    techDescription: 'Angular and Typescript project exploring using bindings to create, and add classes to, the HTML for the Sudoku gameboard.',
+    projDescription: 'Web application for users to play a traditional Sudoku game. ',
+    techUsed: ['Angular', 'Typescript', 'Firebase', 'Bootstrap'],
     github: 'https://github.com/reneesarley/Sudoku-Game',
     deployedLink: 'https://sudoku-cd090.firebaseapp.com/',
     status: '',
     image: './img/sudoku.png'
   },
   {
+    name: 'ICE Raid Tracker',
+    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
+    projDescription: 'Web application for users to report, track and receive text messages about ICE raids in their area.',
+    techUsed: ['C#'],
+    github: 'https://github.com/reneesarley/ICE-tracker',
+    deployedLink: '',
+    status: '',
+    image:'./img/iceRaid.png'
+  },
+  {
     name: 'HOA Portal',
     techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
     projDescription: 'Website for Home Owners Association members to access information about the HOA and vote on HOA initatives.',
+    techUsed: ['Unknown'],
     github: 'https://github.com/reneesarley/ICE-tracker',
     deployedLink: '',
     status: 'in progress',
@@ -43,6 +46,7 @@ const Projects = () =>{
           <ProjectCard name={project.name}
             techDescription={project.techDescription}
             projDescription={project.projDescription}
+            techUsed={project.techUsed}
             status={project.status}
             github={project.github}
             deployed={project.deployedLink}

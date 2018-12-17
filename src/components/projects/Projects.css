@@ -57,18 +57,40 @@ h5.projectName:hover{
   background-color: #D2E0D8;
 }
 
-.card-action.status {
+.status {
   border-top: none;
+  color: white;
   font-weight: lighter;
-  position: relative;
-  padding: 0 24px;
-  text-align: left;
+  font-size: .75em;
+  background-color: #335B3F;
+  text-align: center;
   text-transform: uppercase;
 }
 
 .card-reveal p{
   text-align: left;
 }
+
+.githubLink{
+  float: right;
+}
+
+.techUsed{
+  letter-spacing: normal;
+  background-color: #192D1F;
+  color: white;
+  padding-left: .25em;
+  text-align: left;
+  font-size: .75em;
+  display: block;
+  clear: both;
+  margin-top: 4.5em;
+}
+.stack{
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 
 #projectsSection:before {
   background: inherit;

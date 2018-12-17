@@ -14,20 +14,29 @@ class ProjectCard extends Component {
         <div className="card-stacked projectDetails">
           <div className="card-content activator">
             <h5 className ='activator projectName'>{this.props.name}</h5>
-          </div>
-          <div class="card-action status">
-            <p>{this.props.status}</p>
+            <div class="status">{this.props.status}</div>
           </div>
         </div>
         <div class="card-reveal">
           <h5 class="card-title">{this.props.name}<i class="material-icons right">close</i></h5>
-          <p className=''>
+          <p className='projectDescription '>
             {this.props.projDescription}
             <br/><br/>
             {this.props.techDescription}
           </p>
-          <div className='links'><a href={this.props.deployed} target="_blank">deployed link</a></div><br/>
-          <div className='links'><a href={this.props.github} target="_blank">github repo</a></div>  
+          {this.props.deployed != '' &&
+            <div className='links'>
+              <a href={this.props.deployed} target="_blank">live site</a>
+            </div>
+          }
+          <br/>
+          <div className='links'><a href={this.props.github} target="_blank">github repo</a>
+          </div>
+          <div className='techUsed'> <span className='stack'>Stack:</span>
+             {this.props.techUsed.map(function(tech, index){
+                 return <span>&nbsp;{tech}&nbsp;</span>
+               })}
+         </div>
         </div>
       </div>
     </div>
@@ -39,6 +48,7 @@ ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
   techDescription: PropTypes.string.isRequired,
   projDescription: PropTypes.string.isRequired,
+  techUsed: PropTypes.array,
   github: PropTypes.string,
   status: PropTypes.string,
   image: PropTypes.string
