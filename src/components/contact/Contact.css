@@ -57,17 +57,14 @@
 
 
 @media only screen and (max-width: 950px){
-  .contactType.col.s8{
-    font-weight: normal;
-    font-style: italic;
-    color: #1D3524;
-    padding-top: .5rem;
-
-  }
   .contactType{
     font-size: 1rem;
     text-align: right;
     padding-top: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #1D3524;
+    padding-top: .5rem;
   }
   .contact img{
     max-width: 44px;
@@ -81,8 +78,14 @@
 @media only screen and (max-width: 600px){
 
   .email{
-    font-size: 78px;
-    text-align: center;
+    text-align: right;
     color: black;
+  }
+  .contactType{
+    text-align: left;
+  }
+  .contact img {
+    float: right
+
   }
 }

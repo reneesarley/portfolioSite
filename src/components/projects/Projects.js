@@ -24,16 +24,17 @@ const projectList = [
     status: '',
     image:'./img/iceRaid.png'
   },
-  {
-    name: 'HOA Portal',
-    techDescription: 'Collaborative project focusing on implementing APIs, working with peers and using the MVC pattern in C#',
-    projDescription: 'Website for Home Owners Association members to access information about the HOA and vote on HOA initatives.',
-    techUsed: ['Unknown'],
-    github: 'https://github.com/reneesarley/ICE-tracker',
-    deployedLink: '',
-    status: 'in progress',
-    image: './img/sudoku.png'
-  }
+  // {
+  //   name: 'HOA Portal',
+  //   techDescription: 'Project exploring creating a custom CMS using Drupal',
+  //   projDescription: 'Website for Home Owners Association members to access information about the HOA and vote on HOA initatives.',
+  //   techUsed: ['Drupal'],
+  //   github: 'https://github.com/reneesarley/ICE-tracker',
+  //   deployedLink: '',
+  //   demoLink:'testing',
+  //   status: 'in progress',
+  //   image: './img/sudoku.png'
+  // }
 
 ];
 
@@ -50,6 +51,7 @@ const Projects = () =>{
             status={project.status}
             github={project.github}
             deployed={project.deployedLink}
+            demo={project.demoLink}
             image={project.image}
             key={index}/>
         )}

@@ -10,28 +10,28 @@ const Contact = ()=>{
     <div className='contact section' id='contactSection'>
       <h3>Contact</h3>
       <div className='row'>
-        <div className ='row col s12 m4 contactInfo'>
-          <div className='row col s4 m12'>
+        <div className ='row col s12 m6 contactInfo'>
+          <div className='row col s12 m12'>
             <a href='mailto:reneesarley@gmail.com'>
-              <i class="material-icons email col s2">email</i>
+              <i class="material-icons email col s4">email</i>
               <span className='contactType col s8'>reneesarley@gmail.com</span>
             </a>
           </div>
-          <div className='row col s4 m12'>
+          <div className='row col s12 m12'>
             <a href='https://github.com/reneesarley' target='_blank'>
-              <div className='col s2'><img src={github}/></div>
+              <div className='col s4'><img src={github}/></div>
               <span className='contactType col s8'>reneesarley</span>
             </a>
           </div>
-          <div className='row col s2 m12'>
+          <div className='row col s12 m12'>
             <a href='https://www.linkedin.com/in/reneesarley/' target='_blank'>
-              <div className= 'col s2'><img src={linkedin}/></div>
+              <div className= 'col s4'><img src={linkedin}/></div>
               <span className='contactType col s8'>reneesarley</span>
             </a>
           </div>
         </div>
-        <div className ='col s12 m8 row nonProfitSection'>
-          <div className= 'col s12 flow-text'>Know of a nonprofit that would benefit from pro bono web design, software development or data managment?<br/><span id='letMeKnow'><a href='mailto:reneesarley@gmail.com'>Let me know!</a></span><br/>I am always looking for small side projects that will help me develop my skills and benefit my community.</div>
+        <div className ='col s12 m6 row nonProfitSection'>
+          <div className= 'col s12 flow-text'>Know of a nonprofit that would benefit from pro bono web design, software development or data management?<br/><span id='letMeKnow'><a href='mailto:reneesarley@gmail.com'>Let me know!</a></span><br/>I am always looking for small side projects that will help me develop my skills and benefit my community.</div>
         </div>
       </div>
     </div>
