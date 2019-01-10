@@ -66,6 +66,15 @@ p#aboutMe{
   margin-block-end: 0;
   text-align: left;
 }
+#aboutMe a{
+  font-weight: normal;
+  color: #192D1F;
+  font-style: italic;
+}
+
+#aboutMe a:hover{
+  font-style: normal;
+}
 
 #techStack{
   background-color: #1D3524;
